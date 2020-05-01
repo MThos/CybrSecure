@@ -1,0 +1,62 @@
+html, body {
+  background-color: #0a0a0a;
+  color: #e4e0d7;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
+  height: 100vh;
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.code {
+  border-right: 2px solid;
+  font-size: 56px;
+  font-weight: 800;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.message {
+  font-size: 38px;
+  font-weight: 600;
+  padding: 15px;
+  text-align: center;
+}
+
+.back-404 {
+  margin-top: 7vh;
+  position: absolute;
+}
+
+.back-404 > a {
+  color: #28a745;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.back-404 > a:hover, a:focus, a:active {
+  color: white;
+}
+
+.back-404 > a:hover::before {
+  content: '[';
+}
+
+.back-404 > a:hover::after {
+  content: ']';
+}
