@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54F3A87B27B19BB900599B4F /* CybrsecurePassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CybrsecurePassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F3A87B27B19BB900599B4F /* CybrSecure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CybrSecure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F3A87E27B19BB900599B4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54F3A88027B19BB900599B4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		54F3A88227B19BB900599B4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		54F3A87227B19BB900599B4F = {
 			isa = PBXGroup;
 			children = (
-				54F3A87D27B19BB900599B4F /* CybrsecurePassword */,
+				54F3A87D27B19BB900599B4F /* CybrSecure */,
 				54F3A87C27B19BB900599B4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		54F3A87C27B19BB900599B4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54F3A87B27B19BB900599B4F /* CybrsecurePassword.app */,
+				54F3A87B27B19BB900599B4F /* CybrSecure.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54F3A87D27B19BB900599B4F /* CybrsecurePassword */ = {
+		54F3A87D27B19BB900599B4F /* CybrSecure */ = {
 			isa = PBXGroup;
 			children = (
 				54F3A87E27B19BB900599B4F /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				54F3A88927B19BB900599B4F /* LaunchScreen.storyboard */,
 				54F3A88C27B19BB900599B4F /* Info.plist */,
 			);
-			path = CybrsecurePassword;
+			path = CybrSecure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54F3A87A27B19BB900599B4F /* CybrsecurePassword */ = {
+		54F3A87A27B19BB900599B4F /* CybrSecure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54F3A88F27B19BB900599B4F /* Build configuration list for PBXNativeTarget "CybrsecurePassword" */;
+			buildConfigurationList = 54F3A88F27B19BB900599B4F /* Build configuration list for PBXNativeTarget "CybrSecure" */;
 			buildPhases = (
 				54F3A87727B19BB900599B4F /* Sources */,
 				54F3A87827B19BB900599B4F /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = CybrsecurePassword;
+			name = CybrSecure;
 			productName = CybrsecurePassword;
-			productReference = 54F3A87B27B19BB900599B4F /* CybrsecurePassword.app */;
+			productReference = 54F3A87B27B19BB900599B4F /* CybrSecure.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 54F3A87627B19BB900599B4F /* Build configuration list for PBXProject "CybrsecurePassword" */;
+			buildConfigurationList = 54F3A87627B19BB900599B4F /* Build configuration list for PBXProject "CybrSecure" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54F3A87A27B19BB900599B4F /* CybrsecurePassword */,
+				54F3A87A27B19BB900599B4F /* CybrSecure */,
 			);
 		};
 /* End PBXProject section */
@@ -291,23 +291,25 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4FHF25Q38Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CybrsecurePassword/Info.plist;
+				INFOPLIST_FILE = CybrSecure/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CybrSecure;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mthos.CybrsecurePassword;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mthos.CybrSecure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,30 +322,32 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4FHF25Q38Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CybrsecurePassword/Info.plist;
+				INFOPLIST_FILE = CybrSecure/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CybrSecure;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mthos.CybrsecurePassword;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mthos.CybrSecure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54F3A87627B19BB900599B4F /* Build configuration list for PBXProject "CybrsecurePassword" */ = {
+		54F3A87627B19BB900599B4F /* Build configuration list for PBXProject "CybrSecure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54F3A88D27B19BB900599B4F /* Debug */,
@@ -352,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54F3A88F27B19BB900599B4F /* Build configuration list for PBXNativeTarget "CybrsecurePassword" */ = {
+		54F3A88F27B19BB900599B4F /* Build configuration list for PBXNativeTarget "CybrSecure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54F3A89027B19BB900599B4F /* Debug */,
