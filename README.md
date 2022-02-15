@@ -8,7 +8,7 @@ A simple but powerful secure password generator. You get the option of password 
 This app is developed in Swift for iOS and was completed in Xcode 13.
 <br/><br/>
 ### Support
-For support please reach out to me directly: mykel.thos@gmail.com
+For support please reach out to me directly at mykel.thos@gmail.com
 <br/><br/>
 ### Privacy
 For how we handle your privacy please see <a href="https://github.com/MThos/CybrSecure/blob/main/PRIVACY">the privacy policy.</a>
