@@ -2,7 +2,7 @@
 
 
 ### Description
-A simple but powerful secure password generator. You get the option of password length (10 to 20 characters) and whether you include numbers, symbols, uppercase and/or lowercase letters. Simply tap the lock icon to generate a secure password and then tap to copy the password. 
+A simple but powerful secure password generator. You get the option of password length (10 to 20 characters) and whether you include numbers, symbols, uppercase and/or lowercase letters. Simply tap the lock icon to generate a secure password and then tap to copy the password. Most of the custom code can be found in ViewController.swift 
 <br/><br/>
 ### Development
 This app is developed in Swift for iOS and was completed in Xcode 13.
